@@ -3,30 +3,39 @@ def algorithm():
     tens_count = 0
     temp = num
     main_num_changed = False
+    num_zeros = 0
+
+    if num == 0:
+        num_zeros += 1
 
     for main_index in range(6):
         num_two = check_input()
-        tens_count += 1
-
-        for sub_index in range(tens_count):
-            if num_two >= (temp % 10):
-                temp = append_to_big_num(num, temp, num_two, sub_index)
-                main_num_changed = True
-                break
-            else:
-                if temp > 9:
-                    temp = int(temp / 10)
-
-                main_index = sub_index
-
-        if not main_num_changed:
-            num += num_two * (10 ** (main_index + 1))
-            temp = num
+        if num_two == 0:
+            num_zeros += 1
         else:
-            num = temp
+            tens_count += 1
 
-        main_num_changed = False
+            for sub_index in range(tens_count):
+                if num_two >= (temp % 10):
+                    temp = append_to_big_num(num, temp, num_two, sub_index)
+                    main_num_changed = True
+                    break
+                else:
+                    if temp > 9:
+                        temp = int(temp / 10)
 
+                    main_index = sub_index
+
+            if not main_num_changed:
+                num += num_two * (10 ** (main_index + 1))
+                temp = num
+            else:
+                num = temp
+
+            main_num_changed = False
+
+    for print_zero in range(num_zeros):
+        print("0", end='')
     print(num)
 
 
@@ -38,7 +47,7 @@ def check_input():
     ask_phrase = "Enter a digit from 1 - 9:"
     num_input = input(f"{ask_phrase}\n")
 
-    while (not num_input.isdigit()) or (int(num_input) > 9) or (int(num_input) < 1):
+    while (not num_input.isdigit()) or (int(num_input) > 9) or (int(num_input) < 0):
         num_input = input(f"Invalid input '{num_input}'! {ask_phrase}\n")
 
     return int(num_input)
