@@ -1,0 +1,28 @@
+This file explains how to run the given commands.
+
+ -- Quit --
+ Quit allows the admin to make all connections to the server disconnect, including himself.
+ How to run Quit:
+ 1) send 'quit' to the server.
+ 2) wait until you recieve 'Enter password' from the server
+ 3) enter the admin password
+
+ -- Exit --
+ Exit allows any individual client to disconnect from the server.
+ How to run Exit:
+ 1) send 'exit' to the server
+
+ -- Time --
+ Time gives the client the current date and time.
+ How to run Time:
+ 1) send 'time' to the server
+
+ -- Quote --
+ Quote gives the client a quote of the day from a QOTD server.
+ How to run Quote:
+ 1) send 'quote' to the server
+
+ -- Flip Coin --
+ Flip coin gives the client the reults of a coin flip (heads or tails).
+ How to run Flip Coin:
+ 1) send 'flip coin' to the server
