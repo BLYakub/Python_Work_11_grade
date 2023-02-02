@@ -1,0 +1,24 @@
+   24   7.650958 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=125/32000, ttl=128
+   25   7.663168 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=125/32000, ttl=60 (request in 24)
+   26   8.656219 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=126/32256, ttl=128
+   27   8.667815 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=126/32256, ttl=60 (request in 26)
+   28   9.665823 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=127/32512, ttl=128
+   29   9.677131 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=127/32512, ttl=60 (request in 28)
+   30  10.675770 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=128/32768, ttl=128
+   31  10.763858 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=128/32768, ttl=60 (request in 30)
+   32  12.867636 10.100.102.7 → 216.58.205.196 ICMP 74 Echo (ping) request  id=0x0001, seq=129/33024, ttl=128
+   35  12.968250 216.58.205.196 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=129/33024, ttl=49 (request in 32)
+   37  13.878010 10.100.102.7 → 216.58.205.196 ICMP 74 Echo (ping) request  id=0x0001, seq=130/33280, ttl=128
+   38  13.978327 216.58.205.196 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=130/33280, ttl=49 (request in 37)
+   39  14.887687 10.100.102.7 → 216.58.205.196 ICMP 74 Echo (ping) request  id=0x0001, seq=131/33536, ttl=128
+   40  14.987807 216.58.205.196 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=131/33536, ttl=49 (request in 39)
+   41  15.895200 10.100.102.7 → 216.58.205.196 ICMP 74 Echo (ping) request  id=0x0001, seq=132/33792, ttl=128
+   42  15.993461 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=133/34048, ttl=128
+   43  15.995103 216.58.205.196 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=132/33792, ttl=49 (request in 41)
+   44  16.006072 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=133/34048, ttl=60 (request in 42)
+   56  16.999512 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=134/34304, ttl=128
+   57  17.009898 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=134/34304, ttl=60 (request in 56)
+   59  18.008806 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=135/34560, ttl=128
+   60  18.019696 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=135/34560, ttl=60 (request in 59)
+   61  19.017592 10.100.102.7 → 95.101.160.206 ICMP 74 Echo (ping) request  id=0x0001, seq=136/34816, ttl=128
+   62  19.029515 95.101.160.206 → 10.100.102.7 ICMP 74 Echo (ping) reply    id=0x0001, seq=136/34816, ttl=60 (request in 61)
